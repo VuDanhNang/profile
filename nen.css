@@ -1,0 +1,41 @@
+body{
+    background-color:cyan ;
+    padding: 50px;
+    color: black;
+}
+
+.avatar {
+    border-radius: 150px;
+}
+
+h3{
+    font-family: 'Ruthie', cursive;
+    margin: 10px 0 15px 0;
+    font-size: 1.75em;
+}
+
+p{
+    font-family: system-ui;
+    font-weight: 700;
+}
+
+.button{
+    margin-bottom: 20px;
+    background-color: white;
+    border: 10;
+    width: 300px;
+    padding: 15px 0 15px 0;
+    border-radius: 100px;
+    font-family: 'Kanit', cursive;
+    font-size: 15px;
+    transition-duration: 0.3s;
+    transition-property: color, background-color;
+    box-shadow: 10px 9px 19px 0px rgba(0,0,0,1);
+-webkit-box-shadow: 10px 9px 19px 0px rgba(0,0,0,1);
+-moz-box-shadow: 10px 9px 19px 0px rgba(0,0,0,1);
+}
+
+.button:hover{
+    color: white;
+    background-color:rgb(73, 47, 158);
+}
